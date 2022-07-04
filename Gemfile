@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.1.2"
 
 gem 'react-rails'
+gem 'rubocop', '>= 1.0', '< 2.0'
 gem 'webpacker'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
